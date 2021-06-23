@@ -1,0 +1,34 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 1020px;
+    width: 375px;
+    border: 1px solid #ccc;
+}
+
+header {
+    position: absolute;
+    width: 375px;
+    height: 854px;
+    left: 0px;
+    top: 0px;
+    background: #F8B5B5;
+}
+
+.welcome {
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-top: 1.6em;
+}
+
+.welcome-gif img {
+    position: relative;
+    width: 100%;
+}
